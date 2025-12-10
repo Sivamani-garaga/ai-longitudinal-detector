@@ -85,7 +85,7 @@ export default function App() {
   return (
     <div className="app-root">
       <header className="header">
-        <h1>Patient Trajectory & Diagnosis Drift Detector (MVP)</h1>
+        <h1>Patient Trajectory & Diagnosis Drift Detector.</h1>
         <p>Track longitudinal diagnoses and flag potential drifts or contradictions.</p>
       </header>
 

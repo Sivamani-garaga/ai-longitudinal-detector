@@ -1,9 +1,9 @@
-# Dependency directories for Python/Backend
-backend/conda/
-backend/__pycache__/
-backend/venv/ # If you use a virtual environment
-*.log
-
-# Dependency directories for Node.js/Frontend
+# Frontend exclusions
 frontend/node_modules/
 frontend/dist/
+frontend/package-lock.json # Only include this if you have a lock file in the root, otherwise skip
+
+# Backend exclusions
+backend/conda/
+backend/__pycache__/
+backend/venv/

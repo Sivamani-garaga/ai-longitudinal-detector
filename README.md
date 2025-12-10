@@ -1,4 +1,4 @@
-# AI Longitudinal Patient Trajectory & Diagnosis Drift Detector (MVP)
+# AI Longitudinal Patient Trajectory & Diagnosis Drift Detector 
 
 This project demonstrates a minimal full-stack implementation:
 
