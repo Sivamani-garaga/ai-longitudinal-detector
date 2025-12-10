@@ -8,8 +8,9 @@ from pydantic import BaseModel, Field
 app = FastAPI(
     title="AI Longitudinal Patient Trajectory & Diagnosis Drift Detector",
     version="1.0",
-    description="MVP backend using enhanced drift detection rules."
+    description="backend using enhanced drift detection rules."
 )
+
 
 # Allow all origins for development
 app.add_middleware(
