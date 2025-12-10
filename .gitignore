@@ -1,0 +1,9 @@
+# Dependency directories for Python/Backend
+backend/conda/
+backend/__pycache__/
+backend/venv/ # If you use a virtual environment
+*.log
+
+# Dependency directories for Node.js/Frontend
+frontend/node_modules/
+frontend/dist/
