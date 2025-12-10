@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000";
+export const API_BASE =  "https://ai-longitudinal-detector.onrender.com";
 
 export async function addVisit(patientId, payload) {
   const res = await fetch(`${API_BASE}/patients/${encodeURIComponent(patientId)}/visits`, {
